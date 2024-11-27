@@ -1,0 +1,183 @@
+/*****************************
+    Dashboard
+*****************************/
+.dashboard-nav {
+    li {
+        a {
+            background: rgba($gray-1, 0.4);
+            display: block;
+            padding: 15px;
+            margin-bottom: 1px;
+            color: $gray-3;
+        }
+
+    }
+
+    li.active {
+        a {
+            color: $primary;
+        }
+
+    }
+
+}
+
+.dropzone {
+    border: 2px dashed $border-color;
+
+    .dz-message {
+        color: $gray-3;
+        font-size: 20px;
+        margin: 5em;
+    }
+
+}
+
+.app-chat-msg-chat {
+    overflow-y: hidden;
+    outline: none;
+
+    .chat {
+        display: flex;
+
+        .chat-img {
+            margin-right: 16px;
+        }
+
+        .chat-msg {
+            .chat-msg-content {
+                position: relative;
+            }
+
+        }
+
+    }
+
+    .chat,
+    .chat-left {
+        .chat-msg {
+            .chat-msg-content {
+                background-color: $gray-1;
+                padding: 10px 16px;
+                border-radius: 10px;
+                margin-bottom: 14px;
+
+                &:first-child::before {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    content: '';
+                    border: 8px solid transparent;
+                    right: auto;
+                    left: -16px;
+                    border-right-color: #f7f7f7;
+                    border-left-color: transparent;
+                }
+
+            }
+
+        }
+
+    }
+
+    .chat-left {
+        .chat-img {
+            margin-left: 16px;
+        }
+
+        .chat-msg {
+            .chat-msg-content {
+                color: $primary !important;
+                background-color: $primary !important;
+                margin-right: 8px;
+
+                p {
+                    color: $white;
+                }
+
+                &:first-child::before {
+                    right: -16px;
+                    left: auto;
+                    border-left-color: $primary !important;
+                    border-right-color: transparent;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.app-chat-sidebar .app-chat-sidebar-search.pb-4 {
+    padding-bottom: 1.4rem !important;
+}
+
+.app-chat-sidebar-user {
+    max-height: 600px;
+    overflow-y: hidden;
+    outline: none;
+}
+
+.app-chat-msg-btn {
+    .btn {
+        padding: 0.6rem 1rem;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+    }
+
+}
+
+.app-chat-sidebar {
+    .app-chat-sidebar-search {
+        .form-control {
+            height: 50px;
+            padding: .375rem 1.4rem;
+        }
+
+        .input-group-text {
+            padding: .375rem 1.4rem;
+        }
+
+        .input-group>.input-group-prepend>.input-group-text {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+
+    }
+
+}
+
+.app-chat-type {
+    padding: 1.5rem !important;
+    background-color: #f7f7f7;
+
+    .form-control {
+        height: 50px;
+        padding: .375rem 1.4rem;
+    }
+
+    .input-group-text {
+        padding: .375rem 1.4rem;
+    }
+
+    .input-group>.input-group-prepend>.input-group-text {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .dropzone {
+        .dz-message {
+            margin: 2em;
+        }
+
+    }
+
+}

@@ -1,0 +1,14 @@
+/*****************************
+  Pricing table
+*****************************/
+.pricing {
+	.pricing-price {
+		display: inline-block;
+		strong {
+			font-size: 48px;
+		}
+	}
+	.pricing-list {
+	   border-top: 2px solid $gray-1;
+	}
+}

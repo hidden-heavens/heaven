@@ -1,0 +1,24 @@
+/*****************************
+  		Sidebar
+*****************************/
+.search {
+	position: relative;
+	input {
+		padding-right: 64px;
+		height: 50px;
+		padding-left: 20px;
+	}
+
+	i {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: $primary;
+		color: $white;
+		padding: 17px 20px;
+		cursor: pointer;
+		margin: 0;
+		border-radius: 0 $border-radius $border-radius 0px;
+	}
+
+}

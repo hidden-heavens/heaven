@@ -1,0 +1,158 @@
+/*****************************
+	Team
+*****************************/
+.team {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 10px;
+
+	.team-img {
+		position: relative;
+		img {
+			border-radius: $border-radius;
+		}
+
+		ul {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 0;
+			left: 0px;
+			right: 0;
+			bottom: 0px;
+			position: absolute;
+			transition: all 0.5s ease-in-out;
+			opacity: 0;
+			z-index: 9;
+
+			li {
+				margin-bottom: 7px;
+
+				a {
+					display: block;
+					margin: 0 5px;
+					color: $primary;
+					background: $white;
+					line-height: 30px;
+					width: 30px;
+					height: 30px;
+					border-radius: 50%;
+					text-align: center;
+
+					&:hover {
+						color: $primary;
+						background: $white;
+					}
+
+					i {
+						font-size: 14px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	&:hover {
+		.team-img {
+			ul {
+				opacity: 1;
+				bottom: 40px;
+				transition: all 0.5s ease-in-out;
+			}
+
+		}
+
+	}
+
+	.team-info {
+		padding: 25px 0px 25px 0px;
+		text-align: center;
+		background-color: $white;
+		border-radius: $border-radius;
+		position: relative;
+		z-index: 1;
+		margin-bottom: 0;
+		transition: all 0.3s ease-in-out;
+		display: block;
+		color: $gray-8;
+		font-size: 18px;
+		line-height: 1.2;
+
+		&:hover {
+			color: $gray-8;
+		}
+
+		.team-name {
+			color: $primary;
+			font-size: 18px;
+			font-weight: 500;
+			transition: all 0.4s ease-in-out;
+
+			&:hover {
+				color: $primary;
+			}
+
+		}
+
+		p {
+			font-size: 14px;
+			transition: all 0.4s ease-in-out;
+			margin-bottom: 20px;
+		}
+
+		ul {
+			li {
+				margin-bottom: 5px;
+
+				a {
+					display: block;
+					margin: 0 5px;
+					color: $white;
+					background: $gray-9;
+					line-height: 30px;
+					width: 30px;
+					height: 30px;
+					border-radius: 50%;
+					text-align: center;
+
+					&:hover {
+						color: $primary;
+						background: $white;
+					}
+
+					i {
+						font-size: 14px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	&:hover {
+		.team-info {
+			background-color: $primary;
+		}
+
+	}
+
+}
+
+.team:hover .team-info .team-name {
+	color: $white;
+}
+
+.team:hover .team-info p {
+	color: $white;
+}
+
+.team:hover .team-info a {
+	color: $white;
+}

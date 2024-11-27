@@ -1,0 +1,203 @@
+/*****************************
+  Accordion
+*****************************/
+.accordion {
+	.card {
+		border: none;
+		padding: 8px 0px;
+		margin-bottom: 14px;
+		.card-header {
+			background: $gray-1;
+			margin-bottom: 0;
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+		button {
+			position: relative;
+			color: $white;
+			width: 100%;
+			text-align: left;
+			border: none;
+			font-size: 20px;
+			font-weight: 500;
+			padding: 10px 15px;
+			background-color: $primary;
+
+			span {
+				margin-right: 10px;
+			}
+
+		}
+
+		button.collapsed {
+			color: $secondary;
+			background-color: transparent;
+			span {
+				background: inherit;
+				color: $secondary;
+				transition: all 0.3 easein-out;
+				position: relative;
+
+				&:before {
+					display: none;
+				}
+
+			}
+
+		}
+
+		.card-body {
+			padding: 10px 0px 0px 10px;
+			p {
+				font-size: 18px;
+				font-weight: 300;
+			}
+
+		}
+
+	}
+
+}
+
+.accordion .btn:not(:disabled):not(.disabled):active:focus {
+	color: $gray-8;
+}
+
+// Accordion Style 2
+.accordion-style-2 {
+	.card {
+		border: inherit;
+		margin-bottom: 15px;
+		border-radius: 0;
+		background: transparent;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+
+	
+
+	.card-header {
+		background: transparent;
+		border-bottom: 1px solid $border-color;
+		padding: 0;
+		.accordion-title {
+			display: flex;
+			align-items: center;
+			.btn {
+               padding: 15px 10px;
+			}
+
+			i {
+				font-size: 12px;
+				margin-left: auto;
+			}
+
+		}
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+	}
+
+	.accordion-content {
+		border-top: inherit;
+		.card-body {
+			padding: 15px 15px 0 15px;
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.accordion-title {
+		.btn {
+			display: block;
+			color: $primary;
+			font-size: 18px;
+			padding: 0px;
+			text-decoration: none;
+			width: 100%;
+			text-align: left;
+
+			+ {
+				i {
+					color: $primary;
+				}
+
+			}
+
+		}
+
+		.btn.collapsed {
+			color: $gray-8;
+			+ {
+				i {
+					color: $gray-8;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+}
+
+.accordion-checkbox {
+	.card {
+		label {
+			display: flex;
+
+			.accordion-title {
+				padding-left: 11px;
+				display: inline-block;
+			}
+
+		}
+
+		.card-body {
+			padding: 10px 0px 0px 36px;
+		}
+
+		.pay-icon {
+			height: 20px;
+			margin-left: auto;
+		}
+
+	}
+
+}
+
+@media (max-width:767px) {
+	.accordion {
+		.card {
+			button {
+				font-size: 18px;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:575px) {
+	.accordion-checkbox {
+		.card {
+			label {
+				display: inherit;
+				.accordion-title {
+				display: block;
+				}
+			}
+			.pay-icon {
+				margin-left: 11px;
+			}
+		}
+	}
+}

@@ -1,0 +1,95 @@
+/*****************************
+  Counter
+*****************************/
+.counter {
+	display: flex;
+	align-items: center;
+	padding: 20px 0px;
+
+	.counter-icon {
+		i {
+			color: $primary;
+			margin-right: 25px;
+			font-size: 70px;
+			line-height: 70px;
+		}
+
+	}
+
+	.counter-content {
+		align-self: center;
+   		align-items: center;
+   		margin-right: 30px;
+		.timer {
+			position: relative;
+			font-size: 48px;
+			line-height: 58px;
+			font-family: $font-hedding;
+			color: $white;
+			margin-bottom: 10px;
+			display: block;
+			font-weight: 700;
+		}
+
+		span {
+			position: relative;
+		    font-size: 52px;
+		    line-height: 62px;
+		    margin-bottom: 10px;
+		    display: block;
+		    font-weight: 700;
+		    color: $gray-8;
+			}
+
+		label {
+			display: block;
+			color: $white;
+			margin-bottom: 0;
+		}
+
+	}
+
+}
+
+.counter-section {
+	padding: 60px 40px;
+	box-shadow: 0 1px 2px rgba($black, 0.1);
+	.counter {
+		padding: 0;
+		display: block;
+         .counter-content {
+         margin-right: 20px;
+         display: flex;
+	   }
+	   .counter-icon {
+	   	h6 {
+	   		font-weight: 500;
+	   		color: $body-color;
+	   	}
+	   }
+	}
+
+}
+
+@media (max-width:767px) {
+	.counter {
+		.counter-icon {
+			i {
+			margin-right: 20px;
+    		font-size: 50px;
+    		line-height: 50px;
+			}
+		}
+		.counter-content {
+			.timer {
+				font-size: 30px;
+    		line-height: 30px;
+		    margin-bottom: 5px;
+			}
+			span {
+			    	font-size: 32px;
+		           line-height: 42px;
+			    }
+		}
+	}
+}

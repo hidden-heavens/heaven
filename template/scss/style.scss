@@ -1,0 +1,88 @@
+/*
+
+Template: Placy - Directory and Listing Template
+Version: 1.0.0
+Author: potenzaglobalsolutions
+
+NOTE: This is main stylesheet of template, This file contains the styling for the actual Template.
+
+*/
+
+/*==============================================
+[  Table of contents  ]
+================================================
+
+ :: Typography
+ :: Helper Classes
+ :: Shortcodes
+    - Accordion
+    - Button
+    - Countdown
+		- Counter
+		- Date time Picker
+		- Feature box
+		- Gallery
+		- Newsletter
+		- Owl carousel
+		- Range Slider
+		- Select
+		- Tabs
+		- Team
+		- Testimonial
+ :: Header
+   - Header default
+   - Header transparent
+   - Header light
+ :: Banner
+ :: Layout
+   - Section Title
+   - Page title
+ :: listing
+ :: Sidebar
+ :: Blog
+   - Blog post
+   - Blog sidebar
+   - Blog detail
+ :: Footer
+ :: Responsive
+
+======================================
+[ End table content ]
+======================================*/
+
+// Core files
+@import "variables";
+@import "typography";
+@import "helpers";
+
+// Shortcodes
+@import "shortcodes/accordion";
+@import "shortcodes/feature-info";
+@import "shortcodes/testimonial";
+@import "shortcodes/accordion";
+@import "shortcodes/newsletter";
+@import "shortcodes/counter";
+@import "shortcodes/tabs";
+@import "shortcodes/owl-carousel";
+@import "shortcodes/datetimepicker";
+@import "shortcodes/countdown";
+@import "shortcodes/button";
+@import "shortcodes/select";
+@import "shortcodes/team";
+@import "shortcodes/range-slider";
+@import "shortcodes/pricing";
+
+// Structure
+@import "header";
+@import "sidebar";
+@import "banner";
+@import "layout";
+@import "listing";
+@import "dashboard";
+
+// Pages
+@import "blog";
+@import "footer";
+
+// Responsive
+@import "responsive";
