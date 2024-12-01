@@ -1,0 +1,27 @@
+/*****************************
+  Tabs
+*****************************/
+.nav-tabs {
+	border: none;
+	.nav-item {
+		margin-bottom: 3px;
+		margin-right: 3px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+		.nav-link {
+			border: none;
+			padding: 12px 30px;
+			background: $gray-1;
+			color: $gray-9;
+			border-radius: $border-radius;
+		}
+		.nav-link.active {
+			background: $primary;
+			color: $white;
+		}
+
+	}
+
+}

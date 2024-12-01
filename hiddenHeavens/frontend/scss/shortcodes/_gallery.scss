@@ -1,0 +1,167 @@
+/*****************************
+	Gallery
+*****************************/
+.my-shuffle-container {
+	margin-left: -15px;
+	margin-right: -15px;
+
+	.grid-item {
+		width: 33.33%;
+		padding: 15px;
+	}
+
+}
+
+.filters-group {
+	display: table;
+	margin: 0 auto 50px;
+	text-align: center;
+
+	button {
+		margin: 0 1px 4px;
+		padding: 12px 20px;
+		cursor: pointer;
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 600;
+		color: $white;
+		background: $primary;
+		border: none;
+		transition: all 0.3s ease;
+		transform: skew(-20deg);
+
+		span {
+			transform: skew(20deg);
+			display: block;
+		}
+
+		&:hover {
+			background: $primary;
+			color: $white;
+		}
+
+	}
+
+	button.active {
+		background: $primary;
+		color: $white;
+	}
+
+}
+
+
+/*************************************
+         shuffle
+ *************************************/
+.my-shuffle-container.grid-style {
+	.grid-item {
+		padding: 0 !important;
+	}
+
+}
+
+.my-shuffle-container.columns-1 {
+	.grid-item {
+		width: 100%;
+		padding: 15px;
+	}
+
+}
+
+.my-shuffle-container.columns-2 {
+	.grid-item {
+		width: 50%;
+		padding: 15px;
+		float: left;
+	}
+
+}
+
+.my-shuffle-container.columns-3 {
+	.grid-item {
+		width: 33.33333333%;
+		padding: 15px;
+	}
+
+}
+
+.my-shuffle-container.columns-4 {
+	.grid-item {
+		width: 25%;
+		padding: 10px;
+	}
+
+}
+
+.my-shuffle-container.columns-5 {
+	.grid-item {
+		width: 20%;
+		padding: 15px;
+	}
+
+}
+
+.my-shuffle-container.columns-6 {
+	.grid-item {
+		width: 16.666666%;
+		padding: 15px;
+	}
+
+}
+
+// masonry
+.masonry.my-shuffle-container {
+	.grid-item {
+		padding: 15px;
+		float: left;
+	}
+
+	.m-col-3 {
+		width: 25%;
+	}
+
+	.m-col-4 {
+		width: 40%;
+	}
+
+	.m-col-5 {
+		width: 50%;
+	}
+
+	.m-col-6 {
+		width: 50%;
+	}
+
+	.m-col-7 {
+		width: 65%;
+	}
+
+}
+
+@media (max-width:767px) {
+	.my-shuffle-container .grid-item,
+	.my-shuffle-container.columns-3 .grid-item,
+	.my-shuffle-container.columns-4 .grid-item,
+	.my-shuffle-container.columns-5 .grid-item,
+	.my-shuffle-container.columns-6 .grid-item {
+		width: 50%;
+	}
+
+}
+
+@media (max-width:575px) {
+	.my-shuffle-container.columns-2 .grid-item,
+	.my-shuffle-container .grid-item {
+		width: 100%;
+	}
+
+	.my-shuffle-container .grid-item,
+	.my-shuffle-container.columns-2 .grid-item,
+	.my-shuffle-container.columns-3 .grid-item,
+	.my-shuffle-container.columns-4 .grid-item,
+	.my-shuffle-container.columns-5 .grid-item,
+	.my-shuffle-container.columns-6 .grid-item {
+		width: 100%;
+	}
+
+}

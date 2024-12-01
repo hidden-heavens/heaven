@@ -1,0 +1,79 @@
+/*****************************
+  Countdown
+*****************************/
+.coming-soon {
+	h1 {
+		font-size: 110px;
+		font-weight: 700;
+	}
+
+}
+
+.countdown {
+	display: inline-block;
+	text-align: center;
+	margin: 0px 20px;
+
+	span {
+		font-size: 46px;
+		line-height: 56px;
+		font-weight: 600;
+		color: $primary;
+	}
+
+	p {
+		font-size: 20px;
+		text-transform: capitalize;
+		margin-bottom: 0;
+		color: $gray-8;
+		font-weight: 700;
+	}
+
+}
+
+@media (max-width:1024px) {
+	.coming-soon {
+		h1 {
+			font-size: 80px;
+		}
+
+	}
+
+}
+
+@media (max-width:991px) {
+	.coming-soon {
+		height: 100% !important;
+		padding: 60px 0 !important;
+	}
+
+}
+
+@media (max-width:767px) {
+	.coming-soon {
+		h1 {
+			font-size: 60px;
+		}
+
+	}
+
+	.countdown {
+		margin-left: 0;
+		span {
+	    font-size: 36px;
+    	line-height: 46px;
+		}
+	}
+
+
+}
+
+@media (max-width:575px) {
+	.coming-soon {
+		h1 {
+			font-size: 40px;
+		}
+
+	}
+
+}

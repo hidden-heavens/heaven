@@ -1,0 +1,120 @@
+/*****************************
+  Footer
+*****************************/
+.footer {
+	.footer-logo {
+		height: 40px;
+	}
+
+	.footer-link {
+		display: flex;
+
+		ul {
+			padding-right: 50px;
+
+			&:last-child {
+				padding-right: 0px;
+			}
+
+			li {
+				a {
+					color: $gray-3;
+					padding: 7px 0px;
+					display: block;
+				}
+
+				&:hover {
+					a {
+						color: $primary;
+					}
+
+				}
+
+				&:first-child {
+					a {
+						padding-top: 0;
+					}
+
+				}
+
+				&:last-child {
+					a {
+						padding-bottom: 0;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	/* Social icon */
+	.social-icon {
+		li {
+			display: inline-block;
+			margin-right: 30px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			a {
+				font-size: 18px;
+				color: $gray-3;
+			}
+
+			&:hover {
+				a {
+					color: $primary;
+				}
+
+			}
+
+		}
+
+	}
+
+	.footer-contact-info p {
+		color: $gray-6;
+		font-weight: 500;
+	}
+
+	.flag-svg {
+		height: 30px;
+	}
+
+}
+
+.footer-top {
+	border-bottom: 1px solid $border-color-2;
+	.footer-contact-info {
+		.form-control {
+			background: inherit;
+			border: 1px solid $border-color-2;
+		}
+		.form-control::placeholder {
+			color: $gray-3;
+		}
+	}
+}
+
+.footer.footer-02 {
+	.footer-bottom {
+		border-top: 1px solid $border-color;
+	}
+}
+
+@media (max-width:575px) {
+
+	.social-icon {
+		li {
+			margin-right: 10px !important;
+			margin-left: 10px;
+			margin-bottom: 10px;
+		}
+
+	}
+
+}
