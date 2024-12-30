@@ -21,14 +21,13 @@
 
     <!-- Template Style -->
     <link rel="stylesheet" href="css/style.css">
-
   </head>
 
-<body>
+  <body>
 
-<!--=================================
-header -->
-<header class="header">
+    <!--=================================
+    header -->
+    <header class="header">
     <nav class="navbar navbar-static-top navbar-expand-lg header-sticky">
         <div class="container-fluid">
           <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
@@ -81,9 +80,9 @@ header -->
                       <div class="col-sm-4">
                         <h6 class="mb-3 nav-title">Authentication</h6>
                         <ul class="list-unstyled mt-lg-3">
-                          <li class="active"><a href="login.html">login</a></li>
+                          <li><a href="login.html">login</a></li>
                           <li><a href="coming-soon.html">Coming soon</a></li>
-                          <li><a href="error-404.html">Error 404</a></li>
+                          <li class="active"><a href="error-404.html">Error 404</a></li>
                           <li><a href="privacy-policy.html">Privacy policy</a></li>
                           <li><a href="terms-and-conditions.html">T&C</a></li>
                         </ul>
@@ -170,6 +169,7 @@ header -->
             <li><a class="dropdown-item" href="dashboard-bookmark.html">Bookmark</a></li>
             <li><a class="dropdown-item" href="dashboard-my-profile.html">My Profile</a></li>
             <li><a class="dropdown-item" href="dashboard-review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="dashboard-invoice-listing.html">Invoice listing</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">
@@ -185,7 +185,7 @@ header -->
     </div>
     <div class="call d-block d-md-flex align-items-center">
       <div class="login d-inline-block me-4">
-        <a class="text-white" href="#"><i class="fa fa-user pe-2 text-primary"></i>Hello sign in</a>
+        <a class="text-white" data-bs-toggle="modal" data-bs-target="#loginModal" href="#"><i class="fa fa-user pe-2 text-primary"></i>Hello sign in</a>
       </div>
       <div class="add-listing d-none d-sm-block">
         <a class="btn btn-primary btn-md" href="dashboard-add-listing.html"> <i class="fa fa-plus-circle"></i>Add listing </a>
@@ -194,46 +194,31 @@ header -->
     </div>
   </nav>
 </header>
-<!--=================================
- header -->
+    <!--=================================
+     header -->
 
 <!--=================================
-Page title -->
-<section class="page-title page-title-bottom bg-holder bg-overlay-black-50" style="background: url(images/bg/02.jpg);">
-  <div class="container">
-    <div class="row position-relative">
-      <div class="col-lg-6">
-        <h1 class="text-white">Create an account</h1>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Create an account</li>
-          </ol>
-        </nav>
+ Modal login -->
+<div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="loginModalLabel">Log in & Register</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+        </button>
       </div>
-    </div>
-  </div>
-</section>
-<!--=================================
-Page title -->
-
-<!--=================================
-Login -->
-<section class="space-ptb">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-7">
+      <div class="modal-body">
         <ul class="nav nav-tabs nav-tabs-02 justify-content-center" id="myTab" role="tablist">
-          <li class="nav-item me-2">
+          <li class="nav-item">
             <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false"> <span> Log in</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="register-tab" data-bs-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="true"><span>Register</span></a>
           </li>
         </ul>
-        <div class="tab-content border border-radius mt-4 p-sm-5 p-4" id="myTabContent">
+        <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-            <form class="row t-sm-4 mt-2 align-items-center">
+            <form class="row mt-4 align-items-center">
               <div class="mb-3 col-sm-12">
                 <input type="text" class="form-control" placeholder="Username">
               </div>
@@ -245,37 +230,21 @@ Login -->
               </div>
               <div class="col-sm-6">
                 <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
-                 <!--  <li class="me-1"><a class="text-dark" href="#"><b>Already Registered User? Click here to login</b></a></li>  -->
+                  <li class="me-1"><a class="text-dark" href="#"><b>Already Registered User? Click here to login</b></a></li>
                 </ul>
               </div>
             </form>
             <div class="login-social-media border ps-4 pe-4 pb-4 pt-0 mt-5">
-              <div class="mb-4 d-block text-center"><p class="bg-white ps-2 pe-2 mt-3 d-block">Login or Sign in with</p></div>
-             <!--  <form class="row">
-                <div class="col-sm-6">
-                  <a class="btn facebook-bg social-bg-hover text-white d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="btn twitter-bg social-bg-hover text-white d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="btn google-bg social-bg-hover text-white d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="btn linkedin-bg social-bg-hover text-white d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
-                </div>
-              </form>
-              -->
-
+              <div class="mb-4 d-block text-center"><b class="bg-white ps-2 pe-2 mt-3 d-block">Login or Sign in with</b></div>
               <form class="row">
-                <div class="col-sm-6">
-                  <a class="btn google-bg social-bg-hover text-white d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                <div class="col-sm-12">
+                  <a class="btn btn-skew bg-facebook d-block mb-3 text-white" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
                 </div>
               </form>
             </div>
           </div>
           <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-            <form class="row t-sm-4 mt-2 mb-5 align-items-center">
+            <form class="row mt-4 mb-5 align-items-center">
               <div class="mb-3 col-sm-12">
                 <input type="text" class="form-control" placeholder="Username">
               </div>
@@ -298,26 +267,10 @@ Login -->
               </div>
             </form>
             <div class="login-social-media border ps-4 pe-4 pb-4 pt-0 mt-5">
-              <div class="mb-4 d-block text-center"><p class="bg-white ps-2 pe-2 mt-3 d-block">Login or Sign in with</p></div>
-             <!--  <form class="row">
-                <div class="col-sm-6">
-                  <a class="btn facebook-bg social-bg-hover text-white d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="btn twitter-bg social-bg-hover text-white d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="btn google-bg social-bg-hover text-white d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="btn linkedin-bg social-bg-hover text-white d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
-                </div>
-              </form>
-              -->
-
+              <div class="mb-4 d-block text-center"><b class="bg-white ps-2 pe-2 mt-3 d-block">Login or Sign in with</b></div>
               <form class="row">
-                <div class="col-sm-6">
-                  <a class="btn google-bg social-bg-hover text-white d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                <div class="col-sm-12">
+                  <a class="btn btn-skew bg-facebook d-block mb-3 text-white" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
                 </div>
               </form>
             </div>
@@ -326,9 +279,79 @@ Login -->
       </div>
     </div>
   </div>
+</div>
+<!--=================================
+  Modal login -->
+
+<!--=================================
+banner -->
+<section class="page-title page-title-bottom bg-holder bg-overlay-black-50" style="background: url(images/bg/02.jpg);">
+  <div class="container">
+    <div class="row position-relative">
+      <div class="col-lg-6">
+        <h1 class="text-white">Error 404</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Error 404</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
 </section>
 <!--=================================
-Login -->
+banner -->
+
+<!--=================================
+404 error -->
+<section class="space-ptb">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <!-- <div class="col-lg-6 col-md-6 mb-lg-0 mb-5">
+         <img class="img-fluid" src="images/error-404/01.svg" alt="">
+      </div> -->
+      <div class="col-lg-10 col-md-8 mt-4 mt-sm-0 text-center">
+        <div id="notfound">
+          <div class="notfound">
+            <img class="img-fluid" src="images/error-404/404.jpg" alt="">
+            <div class="notfound-404 mt-4">
+              <h2>Oops - no one seems to be home.</h2>
+            </div>
+            <p class="mt-3 mb-4">The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+            <a class="btn btn-primary" href="index.html">Go To Homepage</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+404 error -->
+
+<!--=================================
+Action box -->
+<section class="py-5 bg-secondary">
+  <div class="container">
+      <div class="row align-items-center">
+      <div class="col-lg-5">
+        <h3 class="text-white mb-0">Sign up to our newsletter to get the latest news and offers.</h3>
+      </div>
+      <div class="col-lg-7 mt-4 mt-lg-0">
+        <div class="newsletter">
+          <form>
+            <div>
+              <input type="email" class="form-control" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-primary">Get notified</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+Action box -->
 
 <!--=================================
 footer-->
