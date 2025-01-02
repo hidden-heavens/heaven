@@ -1,0 +1,14 @@
+[30-Dec-2024 08:58:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\db.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\db.php on line 7
+[30-Dec-2024 08:58:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\db.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\db.php on line 7
+[01-Jan-2025 16:24:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 127.0.0.1:0 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:34:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 127.0.0.1:0 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:36:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:36:15 UTC] PHP Warning:  Undefined array key "phone" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\contact-form.php on line 5
+[02-Jan-2025 11:36:17 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\contact-form.php on line 45
+[02-Jan-2025 12:20:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).

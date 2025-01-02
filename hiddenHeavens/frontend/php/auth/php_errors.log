@@ -1,0 +1,244 @@
+[30-Dec-2024 11:36:27 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 11:36:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 11:36:27 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 11:36:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 11:38:01 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 11:38:01 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 11:38:01 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 11:38:01 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 12:25:59 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 12:25:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 12:25:59 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 12:25:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 12:26:40 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 12:26:40 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 12:26:40 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 12:26:40 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 12:33:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\db.php:9) in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 4
+[30-Dec-2024 12:33:22 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[30-Dec-2024 12:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\db.php:9) in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 4
+[30-Dec-2024 12:35:40 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[30-Dec-2024 12:35:51 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 12:35:51 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 12:35:51 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 12:35:51 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 14:11:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Dec-2024 14:11:38 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 14:11:38 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 14:11:38 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 14:11:38 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 14:15:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Dec-2024 14:15:43 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 14:15:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[30-Dec-2024 14:15:43 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[30-Dec-2024 14:15:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[01-Jan-2025 16:04:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:07:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:33:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:33:00 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 10
+[01-Jan-2025 16:33:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 10
+[01-Jan-2025 16:33:00 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 11
+[01-Jan-2025 16:33:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 11
+[01-Jan-2025 16:36:14 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:36:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:36:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:36:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:43:19 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 4
+[01-Jan-2025 16:43:19 UTC] PHP Stack trace:
+[01-Jan-2025 16:43:19 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:0
+[01-Jan-2025 16:43:28 UTC] PHP Warning:  Undefined variable $username in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 50
+[01-Jan-2025 16:43:28 UTC] PHP Stack trace:
+[01-Jan-2025 16:43:29 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:0
+[01-Jan-2025 16:43:29 UTC] PHP Warning:  Undefined variable $email in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 50
+[01-Jan-2025 16:43:29 UTC] PHP Stack trace:
+[01-Jan-2025 16:43:29 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:0
+[01-Jan-2025 16:43:29 UTC] PHP Warning:  Undefined variable $hashed_password in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 50
+[01-Jan-2025 16:43:29 UTC] PHP Stack trace:
+[01-Jan-2025 16:43:29 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:0
+[01-Jan-2025 16:44:10 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 127.0.0.1:0 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:44:10 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 4
+[01-Jan-2025 16:44:10 UTC] PHP Stack trace:
+[01-Jan-2025 16:44:10 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:0
+[01-Jan-2025 16:44:26 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 4
+[01-Jan-2025 16:44:26 UTC] PHP Stack trace:
+[01-Jan-2025 16:44:26 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:0
+[01-Jan-2025 16:45:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:45:07 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:45:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:45:07 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:45:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:45:19 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:45:19 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:45:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:45:19 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:45:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:45:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:45:39 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:45:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:45:39 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:45:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:48:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:48:00 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:48:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:48:00 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:48:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:52:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:52:47 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:52:47 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:52:47 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:52:47 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:53:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:53:30 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:53:30 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 6
+[01-Jan-2025 16:53:30 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:53:30 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 7
+[01-Jan-2025 16:55:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:55:45 UTC] PHP Warning:  Undefined array key "email" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[01-Jan-2025 16:55:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 8
+[01-Jan-2025 16:55:45 UTC] PHP Warning:  Undefined array key "password" in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[01-Jan-2025 16:55:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 9
+[01-Jan-2025 16:58:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:59:13 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 16:59:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:00:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:00:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:01:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:02:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:02:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:02:36 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php on line 13
+[01-Jan-2025 17:03:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:06:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:06:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:07:19 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:07:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:10:23 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:10:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:13:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Jan-2025 17:50:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:06:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:16:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:23:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:30:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:30:24 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:33:08 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:33:19 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:34:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:34:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:34:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:34:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:34:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:34:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:35:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:37:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 06:37:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 07:55:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 07:57:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 07:57:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 07:58:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 08:07:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 08:07:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 08:08:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:18:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:25:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:50:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:51:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:51:09 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:52:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 09:52:27 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 09:52:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php:5
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php(37): require()
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:06:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:09:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:09:42 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:09:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php:5
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php(37): require()
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:12:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:12:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:12:11 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:12:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php:5
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php(37): require()
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:14:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:15:20 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:15:22 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:15:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:15:34 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:15:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php:5
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\register.php(37): require()
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\send_verification_email.php on line 5
+[02-Jan-2025 10:16:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:17:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:17:22 UTC] Mailer Error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failedSMTP server error: QUIT command failed Detail: øÊåÆšÌ“ÚòŒ—}jùaÜ²’¿¢fˆÚüY_/ójÔ×Ø|>Ú4§¾ÿE
+ã?þnXIOï1Ûú»×Á´Ûp,Œj‘Mèðpl®LN]§E„ôV4«›tºe+ÌxœåAˆ¯w©hUE‰«RF;é|Du›n?Þ¯“é4í#ëìâ&õ„¼Í£+AX3xWÍXF·ÿ
+ßŒi·;|^ŸXUosúÎ“
+[02-Jan-2025 10:17:22 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:20:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:21:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:21:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:21:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:21:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:22:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:27:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:27:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:27:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:28:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:28:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:33:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:34:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:34:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:39:44 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\test.php on line 5
+[02-Jan-2025 10:39:44 UTC] PHP Stack trace:
+[02-Jan-2025 10:39:44 UTC] PHP   1. {main}() C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\test.php:0
+[02-Jan-2025 10:39:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\test.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\test.php on line 5
+[02-Jan-2025 10:42:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:43:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:44:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:45:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:45:17 UTC] PHP Warning:  require(php/db.php): Failed to open stream: No such file or directory in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php on line 2
+[02-Jan-2025 10:45:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'php/db.php' (include_path='.;C:\php\pear') in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php on line 2
+[02-Jan-2025 10:45:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:45:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'NOW' is not a recognized built-in function name. in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php:14
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php on line 14
+[02-Jan-2025 10:47:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:47:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'NOW' is not a recognized built-in function name. in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php:14
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php on line 14
+[02-Jan-2025 10:47:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 10:47:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'NOW' is not a recognized built-in function name. in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php:14
+Stack trace:
+#0 C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Users\victo\OneDrive\Documents\Repo\heaven\hiddenHeavens\frontend\php\auth\verify.php on line 14
+[02-Jan-2025 10:48:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:19:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:19:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:20:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:26:23 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:26:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:27:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Jan-2025 11:27:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port).
