@@ -43,26 +43,7 @@ $location = isset($_SESSION['location']) ? htmlspecialchars($_SESSION['location'
 <section class="space-ptb bg-light">
     <div class="container">
         <div class="row">
-            <!-- Sidebar -->
-            <div class="col-lg-3 col-md-4">
-                <div class="sidebar">
-                    <div class="widget">
-                        <div class="widget-title">
-                            <h6><i class="fas fa-home"></i> Main</h6>
-                        </div>
-                        <div class="widget-content dashboard-nav">
-                            <ul class="list-unstyled">
-                                <li class="active"><a href="account.php"><i class="far fa-user me-2"></i> My Profile</a></li>
-                            </ul>
-                            <h5 class="mb-4 mt-5">Listings</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="dashboard-bookmark.html"><i class="far fa-bookmark me-2"></i> Bookmarks</a></li>
-                                <li><a href="dashboard-review.html"><i class="far fa-star me-2"></i> Reviews</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include 'components/sidebar.php'; ?>
             <!-- Main Content -->
             <div class="col-lg-9 col-md-8">
                 <!-- General Information -->

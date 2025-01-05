@@ -13,3 +13,4 @@
 
     <!-- Custom auth JS-->
     <script src="js/auth/auth.js"></script>
+    <script src="js/listings/add-listing.js"></script>

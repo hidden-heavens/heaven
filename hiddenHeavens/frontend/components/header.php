@@ -4,7 +4,6 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 ?>
 
-
 <header class="header">
     <nav class="navbar navbar-static-top navbar-expand-lg header-sticky">
         <div class="container-fluid">

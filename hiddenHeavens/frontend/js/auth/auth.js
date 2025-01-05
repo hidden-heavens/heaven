@@ -71,14 +71,26 @@ document.querySelector('#registerForm').addEventListener('submit', function (e) 
 
 
 
-$("#togglePassword").on("click", function () {
-        var x = document.getElementById("passwordInput");
-        if (x.type === "password") {
-          x.type = "text";
-        } else {
-          x.type = "password";
-        }
-  });
+document.addEventListener("DOMContentLoaded", function () {
+    const togglePassword = document.getElementById("togglePassword");
+    if (togglePassword) {
+        togglePassword.addEventListener("click", function () {
+            const passwordInput = document.getElementById("passwordInput");
+            if (passwordInput) {
+                if (passwordInput.type === "password") {
+                    passwordInput.type = "text";
+                } else {
+                    passwordInput.type = "password";
+                }
+            } else {
+                console.error("Password input not found.");
+            }
+        });
+    } else {
+        console.error("Toggle button not found.");
+    }
+});
+
 
   document.querySelector('#changePasswordForm').addEventListener('submit', function (e) {
     e.preventDefault(); // Prevent default form submission

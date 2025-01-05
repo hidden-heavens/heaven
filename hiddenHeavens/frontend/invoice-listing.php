@@ -19,9 +19,6 @@
     <link rel="stylesheet" href="css/flaticon/flaticon.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
-    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
-    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
-
     <!-- Template Style -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -165,11 +162,11 @@ header -->
             <li><a class="dropdown-item" href="dashboard.html">dashboard</a></li>
             <li><a class="dropdown-item" href="dashboard-add-listing.html">Add listing</a></li>
             <li><a class="dropdown-item" href="dashboard-booking.html">Booking</a></li>
-            <li><a class="dropdown-item" href="dashboard-invoice-listing.html">Invoice listing</a></li>
+            <li class="active"><a class="dropdown-item" href="dashboard-invoice-listing.html">Invoice listing</a></li>
             <li><a class="dropdown-item" href="dashboard-message.html">Messages</a></li>
             <li><a class="dropdown-item" href="dashboard-chat.html">Chat</a></li>
             <li><a class="dropdown-item" href="dashboard-my-listings.html">My listings</a></li>
-            <li class="active"><a class="dropdown-item" href="dashboard-bookmark.html">Bookmark</a></li>
+            <li><a class="dropdown-item" href="dashboard-bookmark.html">Bookmark</a></li>
             <li><a class="dropdown-item" href="dashboard-my-profile.html">My Profile</a></li>
             <li><a class="dropdown-item" href="dashboard-review.html">Reviews</a></li>
         </ul>
@@ -220,10 +217,10 @@ header -->
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
             <form class="row mt-4 align-items-center">
-              <div class="mb-3 col-sm-12">
+              <div class="form-group mb-3 col-sm-12">
                 <input type="text" class="form-control" placeholder="Username">
               </div>
-              <div class="mb-3 col-sm-12">
+              <div class="form-group mb-3 col-sm-12">
                 <input type="Password" class="form-control" placeholder="Password">
               </div>
               <div class="col-sm-6 d-grid">
@@ -246,16 +243,16 @@ header -->
           </div>
           <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
             <form class="row mt-4 mb-5 align-items-center">
-              <div class="mb-3 col-sm-12">
+              <div class="form-group mb-3 col-sm-12">
                 <input type="text" class="form-control" placeholder="Username">
               </div>
-              <div class="mb-3 col-sm-12">
+              <div class="form-group mb-3 col-sm-12">
                 <input type="email" class="form-control" placeholder="Email Address">
               </div>
-              <div class="mb-3 col-sm-12">
+              <div class="form-group mb-3 col-sm-12">
                 <input type="Password" class="form-control" placeholder="Password">
               </div>
-              <div class="mb-3 col-sm-12">
+              <div class="form-group mb-3 col-sm-12">
                 <input type="Password" class="form-control" placeholder="Confirm Password">
               </div>
               <div class="col-sm-6 d-grid">
@@ -310,11 +307,11 @@ Page title -->
 Page title -->
 
 <!--=================================
-Bookmark Listing -->
+Invoice -->
 <section class="space-ptb bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-xl-3 col-lg-3">
+      <div class="col-lg-3 col-md-4">
         <div class="sidebar">
           <div class="widget">
             <div class="widget-title">
@@ -331,170 +328,147 @@ Bookmark Listing -->
               <ul class="list-unstyled">
                 <li><a href="dashboard-add-listing.html"> <i class="far fa-edit me-2"></i> Add listing</a></li>
                 <li><a href="dashboard-booking.html"> <i class="far fa-calendar-alt me-2"></i> Booking</a></li>
-                <li class="active"><a href="dashboard-bookmark.html"> <i class="far fa-bookmark me-2"></i> Bookmark</a></li>
+                <li><a href="dashboard-bookmark.html"> <i class="far fa-bookmark me-2"></i> Bookmark</a></li>
                 <li><a href="dashboard-my-listings.html"> <i class="fas fa-list-ul me-2"></i> My Listings</a></li>
                 <li><a href="dashboard-review.html"> <i class="far fa-star me-2"></i> Review</a></li>
-                <li><a href="dashboard-invoice-listing.html"> <i class="fas fa-file-invoice me-2"></i> Invoice listing</a></li>
+                <li class="active"><a href="dashboard-invoice-listing.html"> <i class="fas fa-file-invoice me-2"></i> Invoice listing</a></li>
               </ul>
               <a class="btn btn-secondary btn-sm mt-2" href="#">Logout</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-xl-9 col-lg-9">
-        <h4 class="mb-4">Listing</h4>
+      <div class="col-lg-9 col-md-8">
+        <h4 class="mb-4">Invoices</h4>
         <div class="sidebar mb-0">
           <div class="widget mb-0">
             <div class="widget-title">
-              <h6> <i class="fas fa-bookmark "></i> Bookmark Listing: </h6>
+              <h6> <i class="fas fa-file-invoice"></i> Invoice Listings: </h6>
             </div>
             <div class="widget-content">
-              <div class="listing-item listing-list mb-4">
-                <div class="row g-0">
-                  <div class="col-lg-4 col-md-5">
-                    <div class="listing-image bg-overlay-half-top h-100">
-                      <img class="img-fluid" src="images/listing/grid/02.jpg" alt="">
-                      <div class="listing-quick-box">
-                        <a class="category" href="#"> <i class="flaticon-megaphone"></i> Nightlife</a>
-                        <a class="popup popup-single" href="images/listing/grid/02.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="Zoom"> <i class="fas fa-search-plus"></i> </a>
-                        <a class="like" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Like"> <i class="fas fa-heart text-danger"></i> </a>
-                      </div>
-                      <div class="listing-info">
-                        <img class="img-fluid" src="images/listing-brand/01.png" alt="">
-                        <div class="info-content">
-                          <p class="mb-0">Melanie Byrd</p>
-                          <div class="listing-rating">
-                            <span class="stars-wrapper">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </span>
-                          </div>
+              <div class="table-responsive">
+              <table class="table mb-0">
+                  <thead>
+                    <tr>
+                      <th> ID </th>
+                      <th> Booking Date</th>
+                      <th> Plan</th>
+                      <th> Status </th>
+                      <th> Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div>
+                          #0001
                         </div>
+                      </td>
+                      <td>
+                        10 Jan 2022
+                      </td>
+                      <td>
+                        Basic
+                      </td>
+                      <td>   <label class="badge mb-0 bg-success">Delivered</label>
+                    </td>
+                      <td>
+                        $658.00
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        #0002
                       </div>
+                    </td>
+                    <td>
+                      22 Jan 2022
+                    </td>
+                    <td>
+                      Standard
+                    </td>
+                    <td>   <label class="badge mb-0 bg-success">Delivered</label>
+                  </td>
+                    <td>
+                     $356.00
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      #0003
                     </div>
+                  </td>
+                  <td>
+                    23 Feb 2022
+                  </td>
+                  <td>
+                    Standard
+                  </td>
+                   <td>   <label class="badge mb-0 bg-danger">Pending</label>
+                </td>
+                  <td>
+                  $256.00
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    #0004
                   </div>
-                  <div class="col-lg-8 col-md-7">
-                    <div class="listing-details h-100">
-                      <div class="listing-details-inner">
-                        <div class="listing-title">
-                          <h6><a href="#">Fantastic Fridaze</a></h6>
-                          <a class="btn btn-danger btn-sm px-3 ms-auto" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" href="#" ><i class="far fa-trash-alt pe-0"></i></a>
-                        </div>
-                        <p class="my-2">Franklin’s extraordinary success in life and politics can be attributed to his perseverance to overcome his personal liabilities.</p>
-                        <div class="listing-rating-call">
-                          <a class="listing-rating" href="#"><span class="me-1">4.6</span> 10 Rating</a>
-                          <a class="listing-call" href="#"><i class="fas fa-phone-volume"></i> +444 656 326</a>
-                        </div>
-                      </div>
-                      <div class="listing-bottom">
-                        <a class="listing-loaction" href="#"> <i class="fas fa-map-marker-alt"></i> 472 Carpenter Rd</a>
-                        <span class="listing-open">Open</span>
-                      </div>
-                    </div>
-                  </div>
+                </td>
+                <td>
+                  06 Mar 2022
+                </td>
+                <td>
+                 Professional
+                </td>
+                 <td>   <label class="badge mb-0 bg-success">Delivered</label>
+              </td>
+                <td>
+                 $789.00
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  #0005
                 </div>
-              </div>
-              <div class="listing-item listing-list mb-4">
-                <div class="row g-0">
-                  <div class="col-lg-4 col-md-5">
-                    <div class="listing-image bg-overlay-half-top h-100">
-                      <img class="img-fluid" src="images/listing/grid/03.jpg" alt="">
-                      <div class="listing-quick-box">
-                        <a class="category" href="#"> <i class="flaticon-guitar"></i> Sound & music</a>
-                        <a class="popup popup-single" href="images/listing/grid/03.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="Zoom"> <i class="fas fa-search-plus"></i> </a>
-                        <a class="like" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Like"> <i class="fas fa-heart text-danger"></i> </a>
-                      </div>
-                      <div class="listing-info">
-                      <img class="img-fluid" src="images/listing-brand/02.png" alt="">
-                      <div class="info-content">
-                        <p class="mb-0">Alice Williams</p>
-                        <div class="listing-rating">
-                          <span class="stars-wrapper">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-md-7">
-                    <div class="listing-details h-100">
-                      <div class="listing-details-inner">
-                        <div class="listing-title">
-                          <h6><a href="#">Bike Tours Hollywood</a></h6>
-                          <a class="btn btn-danger btn-sm px-3 ms-auto" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" href="#" ><i class="far fa-trash-alt pe-0"></i></a>
-                        </div>
-                        <p class="my-2">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some.</p>
-                        <div class="listing-rating-call">
-                          <a class="listing-rating" href="#"><span class="me-1">4.1</span> 06 Rating</a>
-                          <a class="listing-call" href="#"><i class="fas fa-phone-volume"></i> +888 235 956</a>
-                        </div>
-                      </div>
-                      <div class="listing-bottom">
-                        <a class="listing-loaction" href="#"> <i class="fas fa-map-marker-alt"></i> Lincolnton, NC 28092</a>
-                        <span class="listing-open">Open</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="listing-item listing-list mb-4">
-                <div class="row g-0">
-                  <div class="col-lg-4 col-md-5">
-                    <div class="listing-image bg-overlay-half-top h-100">
-                      <img class="img-fluid" src="images/listing/grid/04.jpg" alt="">
-                      <div class="listing-quick-box">
-                        <a class="category" href="#"> <i class="flaticon-customer"></i> Art & Museums</a>
-                        <a class="popup popup-single" href="images/listing/grid/04.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="Zoom"> <i class="fas fa-search-plus"></i> </a>
-                        <a class="like" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Like"> <i class="fas fa-heart text-danger"></i> </a>
-                      </div>
-                      <div class="listing-info">
-                      <img class="img-fluid" src="images/listing-brand/03.png" alt="">
-                      <div class="info-content">
-                        <p class="mb-0">Paul Flavius</p>
-                        <div class="listing-rating">
-                          <span class="stars-wrapper">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-md-7">
-                    <div class="listing-details h-100">
-                      <div class="listing-details-inner">
-                        <div class="listing-title">
-                          <h6><a href="#">The Vatican Museums</a></h6>
-                          <a class="btn btn-danger btn-sm px-3 ms-auto" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" href="#" ><i class="far fa-trash-alt pe-0"></i></a>
-                        </div>
-                        <p class="my-2">Step out on to the path to your left. Where there is no change. Briefly imagine that you are not going to live.</p>
-                        <div class="listing-rating-call">
-                          <a class="listing-rating" href="#"><span class="me-1">4.9</span> 03 Rating</a>
-                          <a class="listing-call" href="#"><i class="fas fa-phone-volume"></i> +222 356 457</a>
-                        </div>
-                      </div>
-                      <div class="listing-bottom">
-                        <a class="listing-loaction" href="#"> <i class="fas fa-map-marker-alt"></i> West Division Street</a>
-                        <span class="listing-close">Closed</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </td>
+              <td>
+                30 Apr 2022
+              </td>
+              <td>
+               Professional
+              </td>
+              <td>   <label class="badge mb-0 bg-danger">Pending</label>
+            </td>
+              <td>
+              $668.00
+              </td>
+            </tr>
+            <tr>
+            <td>
               <div>
+                #0006
               </div>
+            </td>
+            <td>
+              02 May 2022
+            </td>
+            <td>
+             Basic
+            </td>
+            <td>   <label class="badge mb-0 bg-success">Delivered</label>
+            </td>
+            <td>
+            $226.00
+            </td>
+            </tr>
+            </tbody>
+            </table>
+          </div>
             </div>
           </div>
         </div>
@@ -503,7 +477,7 @@ Bookmark Listing -->
   </div>
 </section>
 <!--=================================
- Bookmark Listing -->
+ Invoice -->
 
 <!--=================================
 footer-->
@@ -511,19 +485,19 @@ footer-->
   <div class="footer-top pb-5">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-xl-2 col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <h5 class="mb-2 mb-sm-4 text-white">Locations</h5>
-          <div class="footer-link">
-            <ul class="list-unstyled mb-0">
-              <li><a href="#">los angeles</a></li>
-              <li><a href="#">New york</a></li>
-              <li><a href="#">London</a></li>
-              <li><a href="#">Mumbai </a></li>
-              <li><a href="#">Kuala Lumpur</a></li>
-            </ul>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="footer-logo mb-3">
+            <a href="index.html"><img class="img-fluid footer-logo" src="images/logo.svg" alt="logo"></a>
           </div>
+          <p class="mb-0 d-inline-block">Success isn’t really that difficult. There is a significant portion of the population here in North America, that actually want and need success</p>
+          <ul class="list-unstyled mb-0 mt-4  social-icon">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+          </ul>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-6 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-6 mb-4 mb-lg-0">
           <h5 class="mb-2 mb-sm-4 text-white">Categories</h5>
           <div class="footer-link">
             <ul class="list-unstyled mb-0">
@@ -535,7 +509,7 @@ footer-->
             </ul>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-2 mb-4 mb-sm-0">
+        <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
           <h5 class="mb-2 mb-sm-4 text-white">Quick Links</h5>
           <div class="footer-link">
             <ul class="list-unstyled mb-0">
@@ -547,7 +521,7 @@ footer-->
             </ul>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <div class="col-xl-4 col-lg-3 col-md-6">
           <div class="footer-contact-info">
             <h5 class="mb-2 mb-sm-4 text-white">Stay update</h5>
             <p class="text-white">Sign up to our newsletter to get the latest news and offers.</p>
@@ -558,24 +532,11 @@ footer-->
       </div>
     </div>
   </div>
-  <div class="footer-bottom py-lg-3 py-2">
+  <div class="footer-bottom py-lg-4 py-4">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-7 mt-4 mt-sm-0 text-md-start text-center">
-          <div class="footer-logo mb-3">
-            <a href="index.html"><img class="img-fluid footer-logo" src="images/logo.svg" alt="logo"></a>
-          </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-7 text-center">
           <p class="mb-0">©Copyright 2022 <a href="index.html">Placy</a> All Rights Reserved</p>
-        </div>
-        <div class="col-md-5 text-md-end text-center mt-4 mt-md-0">
-           <ul class="list-unstyled mb-0 social-icon">
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
-            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-            <li><a href="#"><i class="fab fa-behance"></i></a></li>
-          </ul>
         </div>
       </div>
     </div>
@@ -601,9 +562,6 @@ Javascript -->
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/popper/popper.min.js"></script>
   <script src="js/bootstrap/bootstrap.min.js"></script>
-
-  <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
-  <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Template Scripts (Do not remove)-->
   <script src="js/custom.js"></script>

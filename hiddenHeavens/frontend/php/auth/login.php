@@ -58,6 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['email'] = $user['email'];
             $_SESSION['phone_number'] = $user['phone_number'];
             $_SESSION['location'] = $user['location'];
+            $_SESSION['user_type'] = $user['user_type'];
 
             // Redirect to the home page
             echo json_encode(['status' => 'success', 'redirect' => '../../index.php']);
